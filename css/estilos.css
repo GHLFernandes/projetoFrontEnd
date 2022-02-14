@@ -6,12 +6,19 @@
     box-sizing: border-box;
 }
 
-.bg-image-vertical {
+.container-fluid {
+    position: 'fixed';
+    top: 0;
+    left: 0;
+}
+
+.imagem {
     position: relative;
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: right center;
     background-size: auto 100%;
+    background: url('https://s3-alpha-sig.figma.com/img/d533/20d9/d8077800dc5328fb0ecb022370d375b7?Expires=1646006400&Signature=H5JJLkVLLVSzEYhH1pqqsoqHM0z0lCeSHQ~x-PQR~7bPPNx1k92lTtZvf-wdIKC3dTJp6S3ahymZl~F0g2ZhX~w97s-mVRMBKH2L4xCApz-KHGSyyA-ixhDaDja33lmV8-MMoRLTHkhI3A6WMMvplTi0MkUNZFXsFeuIiJw6ptsN2itkhG16V2uXMKOfEc48UAljsylSqpKJ2hYNQBrbUfFak8NBQ48bgtiB3b3BBuNAApE2ByuQXI46PU120ePKUbu-8zFARoy4NncGsWZUlu94KufufTZU3gtrc4OrYtQ5I5GTOoqmVvqG-fUSVP6mo1u6rxcuOA0A2gFWCovo4g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA') center;
 }
 
 .logo {
